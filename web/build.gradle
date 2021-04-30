@@ -1,0 +1,21 @@
+apply plugin: 'java'
+apply plugin: 'war'
+
+group 'com.epam'
+version '1.0.1'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.springframework', name: 'spring-web', version: '5.2.9.RELEASE'
+    compile group: 'org.springframework', name: 'spring-context', version: '5.2.9.RELEASE'
+    compile group: 'org.springframework', name: 'spring-webmvc', version: '5.2.9.RELEASE'
+    compile group: 'org.springframework', name: 'spring-context-support', version: '5.2.9.RELEASE'
+    compileOnly group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.1'
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.12.2'
+    compile group: 'com.fasterxml.jackson.datatype', name: 'jackson-datatype-jsr310', version: '2.11.3'
+    implementation project(":service")
+    implementation project(":persistence")
+}

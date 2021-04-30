@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.epam.esm.dao.impl.GiftCertificateDaoImplTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-04-13T18:00:11" hostname="URI" time="0.166">
+  <properties/>
+  <testcase name="testGetAllShouldReturnListCertificates()" classname="com.epam.esm.dao.impl.GiftCertificateDaoImplTest" time="0.066"/>
+  <testcase name="testGetByIdShouldThrowExceptionWhenCertificateNotExist()" classname="com.epam.esm.dao.impl.GiftCertificateDaoImplTest" time="0.01"/>
+  <testcase name="testSaveShouldSaveCertificateInDb()" classname="com.epam.esm.dao.impl.GiftCertificateDaoImplTest" time="0.038"/>
+  <testcase name="testDeleteShouldDeleteCertificateFromDb()" classname="com.epam.esm.dao.impl.GiftCertificateDaoImplTest" time="0.007"/>
+  <testcase name="testFindByTagNameShouldReturnListCertificates()" classname="com.epam.esm.dao.impl.GiftCertificateDaoImplTest" time="0.01"/>
+  <testcase name="testGetByIdShouldReturnCertificate()" classname="com.epam.esm.dao.impl.GiftCertificateDaoImplTest" time="0.004"/>
+  <testcase name="testGetByNameShouldReturnCertificate()" classname="com.epam.esm.dao.impl.GiftCertificateDaoImplTest" time="0.003"/>
+  <testcase name="testFindByTagNameOrNameOrDescriptionShouldReturnListCertificates()" classname="com.epam.esm.dao.impl.GiftCertificateDaoImplTest" time="0.007"/>
+  <testcase name="testFindByTagNameOrNameOrDescriptionSortByNameAscByDateDescShouldReturnListCertificates()" classname="com.epam.esm.dao.impl.GiftCertificateDaoImplTest" time="0.007"/>
+  <testcase name="testFindByNameOrDescriptionShouldReturnListCertificates()" classname="com.epam.esm.dao.impl.GiftCertificateDaoImplTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+</testsuite>

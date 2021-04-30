@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+group 'com.epam'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+dependencies {
+    compile group: 'org.springframework', name: 'spring-context', version: '5.2.9.RELEASE'
+    compile group: 'org.springframework', name: 'spring-jdbc', version: '5.2.9.RELEASE'
+    compile group: 'com.zaxxer', name: 'HikariCP', version: '3.4.5'
+    runtime group: 'mysql', name: 'mysql-connector-java', version: '8.0.22'
+    implementation group: 'org.apache.commons', name: 'commons-text', version: '1.9'
+    implementation group: 'org.apache.commons', name: 'commons-collections4', version: '4.4'
+    testImplementation group: 'org.springframework', name: 'spring-test', version: '5.2.9.RELEASE'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testImplementation group: 'com.h2database', name: 'h2', version: '1.4.200'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    testCompile group: 'org.mockito', name: 'mockito-core', version: '3.6.0'
+}

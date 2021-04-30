@@ -1,0 +1,12 @@
+com/epam/esm/config/WebConfiguration.java
+ com.epam.esm.config.WebConfiguration
+com/epam/esm/config/WebMvcConfiguration.java
+ com.epam.esm.config.WebMvcConfiguration
+com/epam/esm/config/DispatcherServletConfig.java
+ com.epam.esm.config.DispatcherServletConfig
+com/epam/esm/controller/GiftCertificateController.java
+ com.epam.esm.controller.GiftCertificateController
+com/epam/esm/controller/TagController.java
+ com.epam.esm.controller.TagController
+com/epam/esm/controller/GlobalExceptionController.java
+ com.epam.esm.controller.GlobalExceptionController

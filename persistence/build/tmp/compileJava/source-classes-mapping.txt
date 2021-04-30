@@ -1,0 +1,22 @@
+com/epam/esm/dao/impl/TagDaoImpl.java
+ com.epam.esm.dao.impl.TagDaoImpl
+com/epam/esm/config/SpringJdbcConfig.java
+ com.epam.esm.config.SpringJdbcConfig
+com/epam/esm/dao/GiftCertificateDao.java
+ com.epam.esm.dao.GiftCertificateDao
+com/epam/esm/dao/TagDao.java
+ com.epam.esm.dao.TagDao
+com/epam/esm/entity/GiftCertificate.java
+ com.epam.esm.entity.GiftCertificate
+com/epam/esm/entity/Tag.java
+ com.epam.esm.entity.Tag
+com/epam/esm/dao/exception/DataException.java
+ com.epam.esm.dao.exception.DataException
+com/epam/esm/dao/impl/GiftCertificateDaoImpl.java
+ com.epam.esm.dao.impl.GiftCertificateDaoImpl
+com/epam/esm/dao/exception/EntityNotFoundException.java
+ com.epam.esm.dao.exception.EntityNotFoundException
+com/epam/esm/dao/exception/TypeErrorCode.java
+ com.epam.esm.dao.exception.TypeErrorCode
+com/epam/esm/dao/utils/DaoUtils.java
+ com.epam.esm.dao.utils.DaoUtils

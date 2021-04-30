@@ -1,0 +1,6 @@
+com/epam/esm/dao/config/SpringJdbcConfigTest.java
+ com.epam.esm.dao.config.SpringJdbcConfigTest
+com/epam/esm/dao/impl/TagDaoImplTest.java
+ com.epam.esm.dao.impl.TagDaoImplTest
+com/epam/esm/dao/impl/GiftCertificateDaoImplTest.java
+ com.epam.esm.dao.impl.GiftCertificateDaoImplTest

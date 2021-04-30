@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.epam.esm.service.impl.TagServiceImplTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-04-13T18:00:15" hostname="URI" time="0.014">
+  <properties/>
+  <testcase name="testGetAllTagsByCertificateShouldReturnListTags()" classname="com.epam.esm.service.impl.TagServiceImplTest" time="0.003"/>
+  <testcase name="testGetByIdTestShouldReturnTag()" classname="com.epam.esm.service.impl.TagServiceImplTest" time="0.003"/>
+  <testcase name="testSaveTestShouldReturnTagsId()" classname="com.epam.esm.service.impl.TagServiceImplTest" time="0.002"/>
+  <testcase name="testDelete()" classname="com.epam.esm.service.impl.TagServiceImplTest" time="0.002"/>
+  <testcase name="testGetAllShouldReturnListTags()" classname="com.epam.esm.service.impl.TagServiceImplTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group 'com.epam'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.springframework', name: 'spring-web', version: '5.2.9.RELEASE'
+    compile group: 'org.springframework', name: 'spring-context', version: '5.2.9.RELEASE'
+    compile group: 'org.springframework', name: 'spring-webmvc', version: '5.2.9.RELEASE'
+    compile group: 'org.springframework', name: 'spring-context-support', version: '5.2.9.RELEASE'
+    implementation group: 'org.apache.commons', name: 'commons-text', version: '1.9'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    testCompile group: 'org.mockito', name: 'mockito-core', version: '3.6.0'
+    testCompile group: 'org.mockito', name: 'mockito-junit-jupiter', version: '3.6.0'
+    implementation project(":persistence")
+   }

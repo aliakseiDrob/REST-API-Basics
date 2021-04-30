@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.epam.esm.dao.impl.TagDaoImplTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-04-13T18:00:11" hostname="URI" time="0.409">
+  <properties/>
+  <testcase name="testGetByNameShouldReturnThrowExceptionWhenTagNotExist()" classname="com.epam.esm.dao.impl.TagDaoImplTest" time="0.003"/>
+  <testcase name="testSaveShouldThrowExceptionWhenDataNotValid()" classname="com.epam.esm.dao.impl.TagDaoImplTest" time="0.003"/>
+  <testcase name="testGetByIdShouldReturnThrowExceptionWhenTagNotExist()" classname="com.epam.esm.dao.impl.TagDaoImplTest" time="0.006"/>
+  <testcase name="testSaveShouldThrowExceptionWhenAlreadyExist()" classname="com.epam.esm.dao.impl.TagDaoImplTest" time="0.354"/>
+  <testcase name="getAllGiftCertificateTags()" classname="com.epam.esm.dao.impl.TagDaoImplTest" time="0.004"/>
+  <testcase name="testSaveTagsShouldReturnSavedTags()" classname="com.epam.esm.dao.impl.TagDaoImplTest" time="0.007"/>
+  <testcase name="testGetByNameShouldReturnTag()" classname="com.epam.esm.dao.impl.TagDaoImplTest" time="0.003"/>
+  <testcase name="TestDeleteShouldDeleteTag()" classname="com.epam.esm.dao.impl.TagDaoImplTest" time="0.004"/>
+  <testcase name="testSaveShouldSaveTag()" classname="com.epam.esm.dao.impl.TagDaoImplTest" time="0.004"/>
+  <testcase name="testGetAllShouldReturnListTags()" classname="com.epam.esm.dao.impl.TagDaoImplTest" time="0.003"/>
+  <testcase name="testGetByIdShouldReturnTag()" classname="com.epam.esm.dao.impl.TagDaoImplTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
