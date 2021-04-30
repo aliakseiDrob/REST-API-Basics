@@ -1,6 +1,7 @@
 # REST-API-Basics
 Business requirements
-Develop web service for Gift Certificates system with the following entities (many-to-many): 
+Develop web service for Gift Certificates system with the following entities ![model](https://user-images.githubusercontent.com/52379905/116738349-ff97f900-a9fa-11eb-852f-65b83367ec50.png)
+ (many-to-many): 
 Duration - in days (expiration period)
 The system should expose REST APIs to perform the following operations:
 CRUD operations for GiftCertificate. If new tags are passed during creation/modification – they should be created in the DB. For update operation - update only fields, that pass in request, others should not be updated. Batch insert is out of scope.
